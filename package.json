@@ -1,0 +1,34 @@
+{
+  "name": "ProjectOverlord",
+  "version": "0.0.1",
+  "description": "NodeJS Free-Tier UI to Imperium",
+  "author":"Daniel Scheufler <daniel.j.scheufler@gmail.com>",
+  "license": "MIT",
+  "bin":{
+    "Overlord":"./bin/Overlord"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "main": "main.js",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/djscheuf/ProjectOverlord"
+  },
+  "bugs":
+  {
+    "url":"https://github.com/djscheuf/ProjectOverlord/issues"
+  },
+  "keywords": [
+    "Imperium"
+    ,"electron"
+  ],
+  "dependencies": {
+    "electron":"*",
+    "mssql":"*"
+  },
+  "devDependencies": {
+    "electron":"*",
+    "mssql":"*"
+  }
+}
